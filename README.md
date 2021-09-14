@@ -1,8 +1,10 @@
 # NLPCloud
 
-基于FastAPI的NLP云服务代码库
+基于FastAPI的NLP云服务代码库(tensorflow 2.x)
 
-
+- python 3.8
+- tensorflow 2.3
+- jieba
 
 一、NLP基础算法
 
