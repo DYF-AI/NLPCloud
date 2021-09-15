@@ -5,8 +5,7 @@ import fire
 import uvicorn
 import fastapi
 from fastapi.staticfiles import StaticFiles
-from fastapi import FastAPI, Request, File, UploadFile, Form, Depends, APIRouter
-from fastapi.responses import JSONResponse, FileResponse, StreamingResponse, RedirectResponse
+from fastapi import FastAPI, Request
 
 from base.word_segmentation.word_segmentation import word_segmentation_jieba
 
