@@ -23,9 +23,7 @@ def word_segmentation_server(input:str):
 
 @app.post('/word_segmentation')
 async def word_segmentation_post(request: Request, data:dict=None):
-    print("input：", data['input'])
     output = word_segmentation_server(data['input'])
-    print("output:", output)
     return {"result": output}
 
 
