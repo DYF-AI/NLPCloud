@@ -3,10 +3,10 @@ import jieba
 
 # 分词工具： jieba
 
-class word_segmentation(object):
+class word_segmentation_jieba(object):
     def __init__(self) -> None:
         super().__init__()
-        pass
+        print("创建分词对象")
 
     def cut(self, input:str, cut_all=True, dict_file=None):
         if dict_file:
